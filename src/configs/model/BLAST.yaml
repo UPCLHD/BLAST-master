@@ -1,0 +1,19 @@
+embedding_size: 64
+feat_embed_dim: 64
+weight_size: [64, 64]
+
+reg_weight: [0.0, 1e-05, 1e-04, 1e-03]
+
+n_mm_layers: 1
+n_ui_layers: 2
+knn_k: 10
+
+mm_image_weight: 0.1
+dropout: [0.8, 0.9]
+
+sup_rat: [0.15, 0.25, 0.3, 0.35, 0.4]
+a_sum: [1.0, 4.0, 5.0,10.0]
+b_sum: [10.0, 1.0, 5.0, 13.0]
+user_reg_weight: [0.0, 1e-05, 1e-04, 1e-03]
+hyper_parameters: ["dropout", "reg_weight", "user_reg_weight", "sup_rat", "a_sum", "b_sum"]
+
