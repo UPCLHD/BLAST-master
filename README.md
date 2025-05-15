@@ -5,10 +5,11 @@ Pytorch implementation for "Balancing User-Item Structure and Interaction with L
 - This code references the [FREEDOM](https://github.com/enoche/FREEDOM).
 
 Our main changes are in the following files:
-1. OT -> src/utils/modify.py and src/common/trainer.py line204
-2. Intra- and Inter-entity Structure Balancing Layer  -> src/models/blast.py
+1. Intra- and Inter-entity Structure Balancing module  -> src/models/blast.py
+2. OT -> src/utils/modify.py
 3. User/Item Profiles Generator -> preprocessing
 
+OT Augmentation and Profile Generation will be uploaded soon.
 ## Overview of BLAST
 <p>
 <img src="./images/BLAST.PNG" width="800">
