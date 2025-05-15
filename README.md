@@ -12,7 +12,7 @@ Our main changes are in the following files:
 OT Augmentation and Profile Generation will be uploaded soon.
 ## Overview of BLAST
 <p>
-<img src="./images/BLAST.PNG" width="800">
+<img src="./images/BLAST.png" width="800">
 </p>
 
 ## Data  
