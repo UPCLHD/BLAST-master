@@ -1,7 +1,7 @@
 # BLAST
 Pytorch implementation for "Balancing User-Item Structure and Interaction with Large Language Models and Optimal Transport for Multimodal Recommendation".
 
-- :twisted_rightwards_arrows: This model is integrated into the [MMRec](https://github.com/enoche/MMRec) framework.
+- This model is integrated into the [MMRec](https://github.com/enoche/MMRec) framework.
 - This code references the [FREEDOM](https://github.com/enoche/FREEDOM).
 
 Our main changes are in the following files:
